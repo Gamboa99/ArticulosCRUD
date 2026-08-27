@@ -31,6 +31,21 @@ namespace ArticulosCRUD
                     case "0":
                         continuar = false;
                         break;
+                    case "1":
+                        MostrarAgregar();
+                        break;
+                    case "2":
+                        MostrarListar();
+                        break;
+                    case "3":
+                        MostrarBuscar();
+                        break;
+                    case "4":
+                        MostrarModificar();
+                        break;
+                    case "5":
+                        MostrarEliminar();
+                        break;
 
                     default:
                         Console.WriteLine("Opción Invalida");
@@ -40,6 +55,36 @@ namespace ArticulosCRUD
             }
           
 
+        }
+        public void MostrarAgregar() 
+        {
+            Console.Clear();
+            Console.WriteLine("Opción Agregar Seleccionada");
+            Console.ReadLine();
+        }
+        public void MostrarListar() 
+        {
+            Console.Clear();
+            Console.WriteLine("Opción Listar Seleccionada");
+            Console.ReadLine();
+        }
+        public void MostrarBuscar() 
+        {
+            Console.Clear();
+            Console.WriteLine("Opción Buscar Seleccionada");
+            Console.ReadLine();
+        }
+        public void MostrarModificar()
+        {
+            Console.Clear();
+            Console.WriteLine("Opción Modificar Seleccionada");
+            Console.ReadLine();
+        }
+        public void MostrarEliminar() 
+        {
+            Console.Clear();
+            Console.WriteLine("Opción Eliminar Seleccionada");
+            Console.ReadLine();
         }
     }
 }
