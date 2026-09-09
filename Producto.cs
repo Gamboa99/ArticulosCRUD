@@ -20,7 +20,7 @@ namespace ArticulosCRUD
         }
         public override string ToString()
         {
-            return $"ID: {Id}, Nombre: {Nombre}, Precio: {Precio}, Cantidad: {Cantidad}";
+            return $"ID: {Id}, Nombre: {Nombre}, Cantidad: {Cantidad}, Precio: {Precio}";
         }
     }
 }
